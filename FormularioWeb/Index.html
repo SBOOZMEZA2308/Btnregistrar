@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistroWeb</title>
+   
+    <!--Bootstrasp-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <!--Inicio del Navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Misi&oacute;n</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Visi&oacute;n</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+                <!-- Inicio de Modal Iniciar Sesión-->
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Iniciar Sesión
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 style="color: black;" class="modal-title" id="exampleModalLabel">Iniciar Sesi&oacute;n</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="emailIniciarSesion" aria-describedby="emailHelp" placeholder="Ingresa tu correo">
+                </div>
+              
+                <div class="mb-3">
+                  <input type="password" class="form-control" id="passwordIniciarSesion" placeholder="Ingresa tu Password">
+                </div>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="btnAceptarIniciarSesion">Aceptar</button>
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Inicio de Modal Registrate-->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                Registrate
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 style="color: black;" class="modal-title" id="exampleModalLabel">Registrarse</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                              <input type="email" class="form-control" id="emailRegistrarse" aria-describedby="emailHelp" placeholder="Crear Cuenta">
+                            </div>
+                          
+                            <div class="mb-3">
+                              <input type="password" class="form-control" id="passwordRegistrarse" placeholder="Crear contraseña">
+                            </div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Close</button>
+                                <button type="button" class="btn btn-primary"  id="btnAceptarRegistrarse">Aceptar</button>
+                          </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+               <!-- Fin de Modal Registrate -->
+            </span>
+          </div>
+        </div>
+      </nav>
+        <!--Final del Navbar-->
+
+    <!--Bootstrasp-->
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
